@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 # criar uma instancia de SQLAlchemy
 app.config['SECRET_KEY'] = '123ABC'
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///blog.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres.kygjajmpouvbzrzvfqsq:Tiago11balan@aws-0-us-west-1.pooler.supabase.com:5432/postgres'
 db = SQLAlchemy(app)
 db:SQLAlchemy
 # definir a estrutura da tabela Postagem

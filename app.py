@@ -221,4 +221,4 @@ def excluir_autor(autor,id_autor):
 
 
 
-app.run(port=5000, host='localhost', debug=True)
+app.run(host='0.0.0.0', port=10000, debug=False)
